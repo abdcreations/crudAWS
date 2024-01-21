@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
-import * as cdk from 'aws-cdk-lib';
+// import * as cdk from 'aws-cdk-lib';
+import * as cdk from '@aws-cdk/core'
 import { DynamoDbCrudStack } from '../lib/dynamo_db_crud-stack';
 
 const app = new cdk.App();
